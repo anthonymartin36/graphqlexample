@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/cooltony68/.nvm/versions/node/v6.3.1/bin/node',
+1 verbose cli   '/Users/cooltony68/.nvm/versions/node/v6.3.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.1
+4 verbose stack Error: Invalid name: "GraphQL Example"
+4 verbose stack     at ensureValidName (/Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:336:15)
+4 verbose stack     at Object.module.exports.fixNameField (/Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:215:5)
+4 verbose stack     at /Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:32:38
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at normalize (/Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:31:15)
+4 verbose stack     at final (/Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:349:5)
+4 verbose stack     at then (/Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at /Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+4 verbose stack     at /Users/cooltony68/.nvm/versions/node/v6.3.1/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:455:3)
+5 verbose cwd /Users/cooltony68/GitWorkspace/graphqlexample
+6 error Darwin 16.0.0
+7 error argv "/Users/cooltony68/.nvm/versions/node/v6.3.1/bin/node" "/Users/cooltony68/.nvm/versions/node/v6.3.1/bin/npm" "run" "dev"
+8 error node v6.3.1
+9 error npm  v3.10.3
+10 error Invalid name: "GraphQL Example"
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
